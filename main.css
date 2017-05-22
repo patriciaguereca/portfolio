@@ -1,0 +1,103 @@
+body {
+	padding-top: 70px;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 1rem;
+	color: #353535;
+	letter-spacing: 0.6;
+}
+header {
+	padding: 10px 2;
+	
+}
+header .col-sm-8 {
+	font-family: 'Yesteryear', cursive;
+}
+header .row {
+	display: flex;
+	align-items: center;
+	background-color: white;
+	padding-left: 5px;
+	border-bottom-style: solid;
+	border-bottom-color: gray;
+}
+footer .row {
+	display: flex;
+	align-items: center;
+}
+header nav {
+	display: flex;
+	justify-content: flex-end;
+
+}
+header p {
+	  padding: 0 10px;
+     margin: 0;
+}
+.jumbotron {
+	display: flex;
+	align-items: center;
+	background-image: url(https://cdn-images-1.medium.com/max/800/1*zVDcaM6mqhi9m0LP_Sq4Ag.jpeg);
+	background-size: cover;
+	color: green;
+	height: 500px;
+}
+.jumbotron h2 {
+	font-size: 60px;
+	font-weight: 700;
+	margin: 0;
+	color: whitesmoke;
+}
+.jumbotron h3 {
+	margin: 0 0 10px;
+	color: whitesmoke;
+}
+.btn.btn-primary {
+	border-radius: 1px;
+	border: 3px;
+	color: black;
+	background-color: #798eaf;
+}
+section .col-sm-6,
+.col-md-4, .col-md-8 {
+	background-color: #f7f7f7;
+	padding-top: 10px;
+	box-shadow: 2px 2px 2px #dbdbdb;
+}
+section .col-md-4, .col-md-8 {
+	border-top: 1px;
+}
+footer {
+	font-size: 15px;
+	padding: 20px 0;
+}
+footer .col-sm-8{
+	display: flex;
+	justify-content: flex-end;
+}
+footer ul {
+	list-style: none;
+}
+p.lead {
+	font-size: 14px;
+}
+
+div .well {
+	background-color: #c0cadb;
+}
+.center-block {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+@media only screen and (min-width : 768px) {
+    .is-table-row {
+        display: table;
+    }
+    .is-table-row [class*="col-"] {
+        float: none;
+        display: table-cell;
+        vertical-align: top;
+    }
+}
