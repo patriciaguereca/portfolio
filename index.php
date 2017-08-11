@@ -63,7 +63,17 @@ $(document).ready(function() {
 	font-size: 15px;
 }
 .hideme {
-	opacity: 0;
+	opacity: 0;}
+
+.hover figure img {
+	-webkit-filter: grayscale(0) blur(0);
+	filter: grayscale(0) blur(0);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover figure:hover img {
+	-webkit-filter: grayscale(100%) blur(3px);
+	filter: grayscale(100%) blur(3px);
 }
 </style>
 
@@ -94,7 +104,10 @@ $(document).ready(function() {
 		Information Systems. My passion is web development, and I created this website
 		to showcase my capabilities of building websites but also to have my
 		own platform.  </p>
-		<img src="me.jpg" alt="me" class="img-thumbnail center-block">
+		<div class="hover">
+			<figure><img src="me.jpg" alt="me" class="img-thumbnail center-block"></figure>	
+		</div>
+	
 				<br>
 		<div class="well text-center">
 		Click <a href="http://patriciaguereca.com/resume_website.pdf" target="_blank">here </a>for my resume.<br>
